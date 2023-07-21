@@ -10,7 +10,6 @@ export const Homepage = () => {
 
     return (
         <div >
-            <p>kierovj</p>
             <Bandeau />
             <Navbar /> 
             <QuoteCarousel />
