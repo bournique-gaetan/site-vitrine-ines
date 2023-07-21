@@ -1,0 +1,17 @@
+@import 'assets/scss/_variables.scss';
+@import 'assets/scss/_mixins/reset.scss';
+@import "assets/scss/Navbar.scss";
+@import "assets/scss/QuoteCarousel.scss";
+@import "assets/scss/Bandeau.scss";
+@import "assets/scss/Buttonrdv.scss";
+@import "assets/scss/QuiSuisJe.scss";
+@import "assets/scss/Card.scss";
+@import "assets/scss/ButtonMore.scss";
+@import "assets/scss/CarouselButton.scss";
+@import "assets/scss/TherapieCard.scss";
+@import "assets/scss/contactModal.scss";
+@import "assets/scss/newContact.scss";
+
+body{
+    overflow-x: hidden;
+}

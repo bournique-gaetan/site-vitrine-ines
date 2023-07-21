@@ -1,0 +1,50 @@
+.prendre-rendezvous-button {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    background-color: rgb(240, 220, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+    transition: transform 0.3s ease-in-out;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 3;
+
+    &:hover {
+        background-color: darkcyan;
+        transform: translateY(-1px);
+        color: #fff;
+      }
+    
+      &:focus {
+        outline: none;
+      }
+      
+  }
+
+  @media (max-width: 820px) {
+        
+    .prendre-rendezvous-button {
+        left: 40px;
+        padding: 8px 16px;
+        font-size: 10px;
+      }
+      
+  }
+
+  @media (max-width: 412px) {
+        
+    .prendre-rendezvous-button {
+        left: 20px;
+        top: 250px;
+        padding: 8px 16px;
+        font-size: 6px;
+      }
+    }
+  
