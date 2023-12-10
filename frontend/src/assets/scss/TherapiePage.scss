@@ -1,0 +1,262 @@
+.therapie-page {
+    position: relative;
+    top: 131px;
+
+    .therapieOne {
+        height: 700px;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 150px;
+
+        .text {
+            position: relative;
+            top: 200px;
+            font-size: 25px;
+        }
+
+        h2 {
+            position: relative;
+            padding: 0px;
+            width: 600px;
+            left: 20px;
+            font-size: 40px; 
+        }
+    }
+
+    .therapieOne h2 {
+        position: relative;
+        padding: 0px;
+        width: 900px;
+        font-size: 40px;
+    }
+
+
+    .CKOI {
+        margin-top: 0px;
+        height: 700px;
+        background-color: #F7F1EA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 150px;
+        position: relative;
+
+        h2 {
+            position: relative;
+            padding: 0px;
+            width: 600px;
+            left: 20px;
+            font-size: 40px; 
+        }
+
+        .text-image {
+            position: relative;
+            top: 190px;
+            width: auto;
+
+            .text {
+                position: relative;
+                width: 65%;
+                top: 0px;
+                font-size: 25px;
+            }
+    
+    
+            .CKOIimage {
+                position: absolute;
+                top: -70px;
+                right: -50px; /* Positionnement à droite */
+                height: 400px;
+                width: 400px;
+                border-radius: 100%;
+
+                 img {
+                    position: absolute;
+                    top: 100px;
+                    right: 0; /* Positionnement à droite */
+                    height: 400px;
+                    width: 400px;
+                    border-radius: 100%; 
+                }
+            }
+        }
+        
+    }
+
+    .EMDR {
+        margin-top: 0px;
+        height: 700px;
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 150px;
+        position: relative;
+
+        h2 {
+            position: relative;
+            padding: 0px;
+            width: 600px;
+            left: 20px;
+            font-size: 40px; 
+        }
+
+        .image-text {
+            position: relative;
+            top: 190px;
+            width: auto;
+        
+            .text {
+                position: relative;
+                width: 65%;
+                top: 0px;
+                left: 400px; /* Modifier left à 0 */
+                right: auto; /* Remettre right à auto */
+                font-size: 25px;
+            }
+
+            .EMDRimage {
+                position: absolute;
+                top: -250px;
+                left: -50px; /* Positionnement à droite */
+                height: 400px;
+                width: 400px;
+                border-radius: 100%;
+                transition: transform 0.5s ease-out;
+
+                img {
+                    position: absolute;
+                    height: 400px;
+                    width: 400px;
+                    border-radius: 100%; 
+                }
+            }
+        }
+        
+    }
+
+    .TCC {
+        margin-top: 0px;
+        height: 700px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 150px;
+        position: relative;
+
+        h2 {
+            position: relative;
+            padding: 0px;
+            width: 600px;
+            left: 20px;
+            font-size: 40px; 
+        }
+
+        .text-image {
+            position: relative;
+            top: 190px;
+            width: auto;
+        
+            .text {
+                position: relative;
+                width: 65%;
+                top: 0px;
+                right: auto; /* Remettre right à auto */
+                font-size: 25px;
+            }
+
+            .TCCimage {
+                position: absolute;
+                top: -250px;
+                right: -50px; /* Positionnement à droite */
+                height: 400px;
+                width: 400px;
+                border-radius: 100%;
+                transition: transform 0.5s ease-out;
+
+                img {
+                    position: absolute;
+                    height: 400px;
+                    width: 400px;
+                    border-radius: 100%; 
+                }
+            }
+        }
+    }
+
+    .ICV {
+        margin-top: 0px;
+        height: 700px;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 150px;
+        position: relative;
+
+        h2 {
+            position: relative;
+            padding: 0px;
+            width: 600px;
+            left: 20px;
+            font-size: 40px; 
+        }
+
+        .image-text {
+            position: relative;
+            top: 190px;
+            width: auto;
+        
+            .text {
+                position: relative;
+                width: 65%;
+                top: 0px;
+                left: 400px; /* Modifier left à 0 */
+                right: auto; /* Remettre right à auto */
+                font-size: 25px;
+            }
+
+            .ICVimage {
+                position: absolute;
+                top: -20px;
+                left: -50px; /* Positionnement à droite */
+                height: 400px;
+                width: 400px;
+                border-radius: 100%;
+                transition: transform 0.5s ease-out;
+
+                img {
+                    position: absolute;
+                    height: 400px;
+                    width: 400px;
+                    border-radius: 100%; 
+                }
+            }
+        }
+
+    }
+
+    .CKOIimage.zoom-in,
+    .EMDRimage.zoom-in,
+    .TCCimage.zoom-in,
+    .ICVimage.zoom-in {
+    transform: scale(1.1);
+    }
+
+    .footerContentTherapieCustom {
+        position: absolute;
+        top: 2519px;
+        
+    }
+  }
+  
+  
+  

@@ -1,0 +1,105 @@
+.qui-suis-je-page {
+    position: relative;
+    top: 131px;
+    height: 1500px;
+    background-color: antiquewhite;
+}
+
+.QuiSuisJeInfo {
+    padding: 40px;
+}
+
+.QuiSuisJeInfo h2 {
+    position: relative;
+    top: -40px;
+    left: -40px;
+    padding: 40px;
+    width: 600px;
+    align-self: flex-start;
+    margin: 0;
+    background-color: rgb(240, 220, 190);
+    font-size: 40px;
+}
+
+.QuiSuisJeInfo h3 {
+    position: relative;
+    top: -10px;
+    left: 45px;
+    font-size: 30px;
+}
+
+.QuiSuisJeInfo img {
+    position: absolute;
+    left: 800px;
+    top: 130px;
+    width: 40%;
+    height: 750px;
+    border: 1px solid #fff;
+    background-size: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.QuiSuisJeInfo p {
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.MonExpreience {
+    background-color: #F7F1EA;
+    height: 950px;
+}
+
+.MonExpreience h2 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 40px;
+    margin-bottom: 30px;
+    width: 600px;
+    align-self: flex-start;
+    background-color: rgb(240, 220, 190);
+    font-size: 40px;
+}
+
+.MonExpreience p {
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 20px;
+    margin: 0px 350px;
+}
+
+.MonExpreience .MonExperience {
+    display: flex;
+    flex-direction: column;
+}
+
+.MonExpreience p.date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.MonExpreience .MonExperience span {
+    display: block;
+}
+
+.footerContentQuiSuisJeCustom {
+    position: absolute;
+    top: 916px;
+}
+
+  

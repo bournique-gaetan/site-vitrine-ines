@@ -1,0 +1,58 @@
+.footer-content {
+    position: relative;
+    display: flex;
+    top: 983px;
+    height: 250px;
+    width: auto; 
+    z-index: 3;
+    
+    
+}
+  
+  /* Styles pour les sections d'adresse, horaires et contact */
+  .footer-address,
+  .footer-hours,
+  .footer-contact {
+    text-align: center;
+    padding: 50px 40px; /* Centrer le texte horizontalement */
+  }
+
+  
+  /* Styles pour les titres h4 */
+  h4 {
+    position: absolute;
+    font-size: 35px;
+    top: 10px;
+    padding-left: 140px;
+  
+  }
+
+  h5 {
+    font-size: 20px;
+    padding: 10px; /* Supprimer la marge supérieure par défaut des titres */
+  }
+  
+  /* Styles pour les paragraphes p */
+  p {
+    padding-top: 0px; /* Supprimer les marges par défaut des paragraphes */
+  }
+
+.footer-address {
+    background-color: #FBE0C3;
+    height: 250px;
+    width: 502px;
+   
+  }
+
+  .footer-hours {
+    background-color: #FFBB98;
+    height: 250px;
+    width: 502px;
+  }
+
+  .footer-contact {
+    background-color: antiquewhite;
+    height: 250px;
+    width: 502px;
+  }
+  

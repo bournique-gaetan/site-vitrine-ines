@@ -58,23 +58,23 @@ export default function Navbar() {
         <h2>Psychologue Clinicienne, Psychothérapeute EMDR & TCC</h2>
 
         {/* Liens de la barre de navigation */}
-        <a href="#accueil">Accueil</a>
-        <a href="#quisuisje">Qui suis-je</a>
+        <a href="/">Accueil</a>
+        <a href="/QuiSuisJe">Qui suis-je</a>
         <Dropdown title="Consultation">
-          <DropdownItem href="#difficulte">Difficultés</DropdownItem>
-          <DropdownItem href="#anxiete">Anxiété</DropdownItem>
-          <DropdownItem href="#depression">Dépression</DropdownItem>
-          <DropdownItem href="#comportement">Trouble du comportement alimentaire</DropdownItem>
-          <DropdownItem href="#traumatismes">Traumatismes</DropdownItem>
-          <DropdownItem href="#maladies">Maladies</DropdownItem>
-          <DropdownItem href="#addictions">Addictions</DropdownItem>
-          <DropdownItem href="#sexualite">Sexualité</DropdownItem>
-          <DropdownItem href="#travail">Travail</DropdownItem>
+          <DropdownItem href="/difficulte">Difficultés</DropdownItem>
+          <DropdownItem href="/anxiete">Anxiété</DropdownItem>
+          <DropdownItem href="/depression">Dépression</DropdownItem>
+          <DropdownItem href="/comportement">Trouble du comportement alimentaire</DropdownItem>
+          <DropdownItem href="/traumatismes">Traumatismes</DropdownItem>
+          <DropdownItem href="/maladies">Maladies</DropdownItem>
+          <DropdownItem href="/addictions">Addictions</DropdownItem>
+          <DropdownItem href="/sexualite">Sexualité</DropdownItem>
+          <DropdownItem href="/travail">Travail</DropdownItem>
         </Dropdown>
         
         <>
-          <a href="#prendreRdv">Thérapies</a>
-          <a href="#honoraires">Honoraires</a>
+          <a href="/prendreRdv">Thérapies</a>
+          <a href="/honoraires">Honoraires</a>
           <a href="#contact" onClick={toggleContactModal}>Contact</a>
           <a href="#liste" onClick={toggleShowContacts}>Liste</a>
         </>

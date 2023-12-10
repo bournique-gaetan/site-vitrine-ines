@@ -4,7 +4,7 @@ export default function Bandeau () {
   return (
     <div className="bandeau">
       <div className="contact-info">
-        <a href="mailto:exemple@gmail.com">
+        <a href="inesaissa.psycohologue@gmail.com">
           <i className="fas fa-envelope"></i> inesaissa.psycohologue@gmail.com
         </a>
         <a href="tel:+780978570">

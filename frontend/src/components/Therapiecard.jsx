@@ -30,6 +30,8 @@ const ParallaxComponent = () => {
 
   return (
     <div className="parallax-container">
+       <h2 style={{ position: 'absolute', left: '32%',  top: '50px', width: '100%',fontSize: '40px', zIndex: 2}}>Comment je vais vous aider</h2>
+      
       <div
         id="parallax"
         className="parallax"

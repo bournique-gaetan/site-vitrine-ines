@@ -1,0 +1,84 @@
+.avis-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; /* Permet aux avis de passer à la ligne si l'espace est insuffisant */
+    justify-content: center;
+    align-items: center;
+    top: 980px;
+    height: 600px;
+    width: auto; 
+    z-index: 3;
+    background-color: antiquewhite;
+  }
+
+  .react-responsive-carousel {
+    height: 200px;
+    width: 100%; /* Largeur du composant Carousel */
+    overflow: hidden;
+  }
+  .carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: -5px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+  
+  /* Styles pour chaque paire d'avis */
+  .avis-paire {
+    display: flex; /* Afficher les avis côte à côte */
+    justify-content: space-evenly; /* Espacement entre les avis */
+    margin-bottom: 20px; /* Marge inférieure entre les paires d'avis */
+  }
+  
+  .avis-item {
+    flex: 0 0 calc(30% - 20px); /* Largeur fixe avec espace entre les avis */
+    width: 30%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centrez le texte horizontalement */
+  }
+  
+  .avis-item .auteur {
+    margin-top: 30px;
+  }
+
+.donner-avis-button {
+    position: absolute;
+    top: 500px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    background-color: rgb(240, 220, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+    transition: transform 0.3s ease-in-out;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 3;
+
+    &:hover {
+        background-color: darkcyan;
+        transform: translateY(-1px);
+        color: #fff;
+      }
+    
+      &:focus {
+        outline: none;
+      }
+      
+  }
+
