@@ -1,0 +1,70 @@
+.honoraires-page {
+    height: 1300px;
+    background-color: antiquewhite;
+    
+  
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 0px;
+
+      p {
+        font-size: 30px;
+        padding-top: 100px;
+        padding-right: 285px;
+        padding-bottom: 0;
+        padding-left: 285px; /* Utilisez une valeur appropriée de padding */
+        margin: 0; /* Réinitialisez la marge pour éviter des espaces indésirables */
+        text-align: center;
+      }
+      
+  
+      .card {
+        background-color: #F7F1EA;
+        width: 400px;
+        height: 500px; // Ajustez la largeur selon vos besoins
+        margin: 50px 50px; // Espace entre les cartes
+        border: 1px solid #fff;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ease;
+        padding: 15px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          }
+
+          h3 {
+            padding-left: 0px;
+            font-size: 30px;
+          }
+    
+          p {
+            padding: 50px;
+            font-size: 50px;
+          }
+    
+          p1 {
+            padding-top: 40px;
+            padding-bottom: 50px;
+            padding-left: 0%;
+            
+            font-size: 20px;
+          }
+      }
+    }
+  
+    .footerContentHonorairesCustom {
+        position: absolute;
+        top: 320px;  
+    }
+}
+  
+  

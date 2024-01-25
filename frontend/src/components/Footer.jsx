@@ -8,7 +8,9 @@ const Footer = () => {
         <div className="footer-address">
             <h4>Le cabinet</h4>
           <p>8 rue Courbin, 33000 Bordeaux</p>
+          <div className='footerContentButtonrdvCustom'>
           <Buttonrdv />
+          </div>
           <p>Important : toute consultation non honorée et non annulée 48h à l'avance est due</p>
         </div>
         <div className="footer-hours">
