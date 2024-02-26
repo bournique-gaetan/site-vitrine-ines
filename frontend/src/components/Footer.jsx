@@ -19,13 +19,13 @@ const Footer = () => {
           <p>Lundi au jeudi : </p>
           <p>10h - 20h</p>
           <h5>Consultation en ligne </h5>
-          <p>Vendredi : 9h - 17h</p>
+          <p>Vendredi :</p>
           <p>9h - 17h</p>
         </div>
         <div className="footer-contact">
           <h4>Contact :</h4>
           <p> 07.80.785.70</p>
-          <p>inesaissaychologue@mail.com</p>
+          <p>inesaissapsychologue@gmail.com</p>
         </div>
       </div>
     </footer>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Bandeau from "../components/bandeau";
+import Bandeau from "../components/Bandeau";
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer";
 import ScrollTrigger from 'react-scroll-trigger';

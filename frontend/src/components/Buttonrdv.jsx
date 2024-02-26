@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-export default function PrendreRendezVousButton  () {
+export default function PrendreRendezVousButton() {
   const handleClick = () => {
     // Logique de gestion du clic sur le bouton
     // Vous pouvez ajouter ici le code pour effectuer une action spécifique
@@ -11,4 +11,4 @@ export default function PrendreRendezVousButton  () {
       Prendre rendez-vous
     </button>
   );
-};
+}

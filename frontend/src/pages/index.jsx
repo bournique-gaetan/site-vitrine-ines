@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import QuoteCarousel from "../components/QuoteCarousel";
-import Bandeau from "../components/bandeau";
+import Bandeau from "../components/Bandeau";
 import QuiSuisJe from "../components/QuiSuisJe";
 import Carousel from "../components/Carousel";
 import TherapieCard from "../components/Therapiecard";

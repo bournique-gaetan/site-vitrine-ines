@@ -5,15 +5,13 @@ export default function Bandeau () {
     <div className="bandeau">
       <div className="contact-info">
         <a href="inesaissa.psycohologue@gmail.com">
-          <i className="fas fa-envelope"></i> inesaissa.psycohologue@gmail.com
+          <i className="fas fa-envelope"></i> inesaissa.psychologue@gmail.com
         </a>
         <a href="tel:+780978570">
           <i className="fas fa-phone"></i> 0780978570
         </a>
       </div>
-      <a href="#prendreRdv" className="btn">Prendre rendez-vous</a>
+      <a href="/calendarPrendreRdv" className="btn">Prendre rendez-vous</a>
     </div>
   );
 };
-
-

@@ -12,6 +12,7 @@ import QuiSuisJePage from './pages/QuiSuisJePage';
 import ConsultationPage from './pages/ConsultationPage';
 import TherapiePage from './pages/TherapiePage';
 import HonorairesPage from './pages/HonorairesPage'
+import PrendreRdvPage from './pages/PrendreRdvPage';
 
 
 const router = createBrowserRouter([
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
   {
     path: '/honoraires', // Définissez le chemin pour "Qui suis-je"
     element: <HonorairesPage />, // Utilisez le composant "QuiSuisJePage"
+  },
+  {
+    path: '/calendarPrendreRdv', // Définissez le chemin pour "Qui suis-je"
+    element: <PrendreRdvPage />, // Utilisez le composant "QuiSuisJePage"
   },
 ]);
 
